@@ -1,6 +1,8 @@
+import java.Exception.IndexOutOfBoundsException;
 public class Column {
     int size;
     Coin[] col;
+
     public Column(int cols) {
         col = new int[cols];
         size = 0
